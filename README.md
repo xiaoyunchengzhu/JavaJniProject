@@ -98,12 +98,12 @@ JniModule build之后生成生成JniModule-1.0.0.jar 包
 public class Main {
 
     public static void main(String[] argc) {
-        String soPath="/media/zhangshiyu/00064DE5000FE4D9/eclipseworkspace/JavaJniProject/JniModule/jni/build/libJniUtil.so";
+        String soPath=   ...+"JniModule/jni/build/libJniUtil.so";
         JniUtils jniUtils=new JniUtils(soPath);
     }
 }
 ```
-
+...为省略路径,补充为绝对路径
 ### 8 so动态库的路径 最好是命令行参数的方式传入,因为无法一块打入可执行jar中
 省略
 
