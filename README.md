@@ -4,6 +4,7 @@
 1. 安装jdk,配置好环境变量.
 2. 安装cmake用来编译动态库 
 
+说明:工程是gradle构建的工程.可以使用idea打开.(非android工程)
 
 ### 1 创建java native 方法
 
