@@ -1,0 +1,3 @@
+rootProject.name = 'JavaJniProject'
+include 'JniModule'
+
