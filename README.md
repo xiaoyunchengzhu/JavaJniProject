@@ -80,7 +80,7 @@ make
 
 创建build主要是分离代码和构建生成的文件.执行完毕
 
-build 文件夹下的libJniUtil.so文件就动态库文件了
+build 文件夹下的libJniUtil.so文件就动态库文件了(linux环境下),mac的动态库,是.dylib后缀
 ### 7 java调用动态库
 JniModule build之后生成生成JniModule-1.0.0.jar 包
 ```
